@@ -7,11 +7,7 @@ function calculadorImc(){
 
 calculadorImc()
 
-function resultado(){
-    if (resultado < 18.5) {
-        alert("Tu peso estápor debajo del promedio saludable");
-    } else if ((resultado > 18.5)  && (resultado > 24.9)); {
-        alert("Tu peso es saludable");
-    }
+setTimeout (resultado,1000);
+if (resultado <18.5){
+    alert("Estás bajo en peso");
 }
-
